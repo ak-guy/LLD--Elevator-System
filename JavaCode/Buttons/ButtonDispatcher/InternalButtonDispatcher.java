@@ -1,9 +1,13 @@
 package Buttons.ButtonDispatcher;
 
-import Enums.Direction;
+import java.util.List;
+import ElevatorCar.ElevatorController;
+import ElevatorCar.Elevator;
 
 public class InternalButtonDispatcher {
-    public void submitInternalRequest(int floorNumber, Direction direction) {
+    List<ElevatorController> elevatorControllerList;
+
+    public void submitInternalRequest(int floorNumber, Elevator elevator) {
         
     }
 }
